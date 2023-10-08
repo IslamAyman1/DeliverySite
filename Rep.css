@@ -1,0 +1,764 @@
+body
+{
+    overflow-x: hidden;
+}
+header{
+    background-image: url(blue_bg.png);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar
+{
+    position: absolute;
+    top:6%;
+    width:100%;
+    box-shadow: none;
+}
+.navbar .login
+{
+   position: absolute;
+   left:82%;
+   background: white;
+   padding: 8px;
+   border-radius: 8px;
+   text-align: center;
+   width:90px;
+}
+.navbar img
+{
+    width: 110px;
+    height:70px;
+    position: relative;
+    right:90px;
+}
+.navbar a
+{
+    position: relative;
+    right:80px;
+    margin-left: 25px;
+    color:black;
+}
+.container .photo img
+{
+    width: 400px;
+    height: 400px;
+}
+.content .photo
+{
+    position: relative;
+    top:120px;
+    left:60px;
+
+}
+.content .photo .man
+{
+  position:absolute;
+  right:15%;
+  width: 739px;
+  height: 715px;
+  
+}
+.content .photo .colors
+{
+    position:absolute;
+     left:10%;
+    width: 400px;
+    height: 550px;
+    z-index: 2;
+   
+}
+.content .photo .clouds
+{
+    position:absolute;
+    top: 410px;
+    left: -20px;
+    width: 400px;
+    height: 150px;
+}
+.content .photo .clouds2
+{
+    position:absolute;
+    top: 450px;
+    left:100px;
+    width: 400px;
+    height: 250px;
+    z-index: 3;
+    opacity: 0.9s;
+}
+.waves
+{
+    position: absolute;
+    height: 200px;
+    width: 70%;
+    left: 0;
+    bottom: -100px;
+    z-index: 3;
+  
+ 
+}
+.word{
+    position: relative;
+    top: 320px;
+    left: 10%;
+}
+
+ .para1
+{ 
+    font-size: 50px;
+}
+ .para2
+{
+    color:gray;
+  
+
+    font-size: 25px;
+}
+
+@media screen and (max-width:1500px){
+    .content .photo .man
+    {
+
+      right:0%;
+
+      
+    }  
+}
+@media screen and (max-width:1200px){
+    .content .photo .man
+    {
+
+      right:0%;
+
+      
+    }  
+    .content .photo .colors
+{
+
+     left:-10%;
+
+   
+}
+.content .photo .clouds
+{
+
+    left: -20%;
+
+}
+.content .photo .clouds2
+{
+
+    left:-15%;
+
+}
+}
+@media screen and (max-width:922px){
+    .photo {
+        top: 100px !important;
+        left: 200px;
+    }
+    .content .photo .man
+    {
+        top: 20%;
+      left:0%;
+      width: 300px;;
+      height: 415px;
+      
+    }
+    .content .photo .colors
+    {
+         left:10%;
+        width: 150px;
+        height: 350px;
+
+       
+    }
+    .content .photo .clouds
+    {
+        top: 290px;
+        left: 50px;
+        width: 100px;
+        height: 100px;
+        z-index: 22;
+    }
+    .content .photo .clouds2
+    {
+        top: 290px;
+        left:100px;
+        width: 100px;
+        height: 100px;
+        z-index: 3;
+        opacity: 0.9s;
+    }
+
+}
+@media screen and (max-width:768px){
+    .para2{
+top: -150px !important;
+    }
+    .content .photo
+    {
+
+        top: -60px;
+    }
+
+}
+@media screen and (max-width:576px){
+    .photo {
+        position: relative;
+        left: 150px !important;
+        top:300px !important;
+       
+    }
+    .para1,.para2{
+        font-size: 20px !important;
+        position: relative;
+        left: -20px !important;
+        bottom:10px !important;
+              }
+      
+              .para2
+              {
+                position: relative;
+                top: -10px !important;
+              }
+              header li
+              {
+                  position: relative;
+                  right: -50px !important;
+              }
+              header .collapse .login
+              {
+                  position: relative;
+                  right:20px !important
+              }
+              .third_section .foot
+              {
+                 height: 300px;
+                 position: relative;
+                width: 1600px !important;
+              }
+              .third_section .icons
+              {
+                  position: relative;
+                  left: 470px !important; 
+                 
+                  width: 50px;
+              }
+              .third_section .icons img
+              {
+                 margin: 10px;  
+              }
+              .third_section .links
+              {
+                 position: relative;
+                 left: 445px;
+                  display: flex;
+                  flex-direction: column;
+              }
+              .third_section .btn1 , .third_section .imgapple , .third_section .apple 
+              {
+                  position: relative;
+                  left: 405px;      
+                  width: 50px;
+              }
+              .third_section .pep
+              {
+                    position: relative;
+                   right: 80px !important;
+              }
+ 
+}
+/*********************/
+.container .row .road
+{
+    position:relative;
+    left: 150px;
+    top: 150px;
+    width: 1000px;
+    height: 700px;
+}
+.first
+{
+    position:relative;
+    top: 691px;
+    right:402px;
+}
+.container .row .imageroad1
+{
+  position: relative;
+  bottom: 450px;
+}
+.container .row .para3
+{
+    position: relative;
+    bottom: 430px;
+}
+.container .row .para4
+{
+    position: relative;
+    bottom: 420px;
+    color:gray;
+}
+.second
+{
+    position:relative;
+    top: 455px;
+    right: 250px;
+}
+.container .row .para6
+{
+    color:gray;
+}
+.third
+{
+    position:relative;
+    left: 812px;
+    top:-25px;
+}
+.container .row .para7
+{
+   position: relative;
+   left: 90px;
+   margin-top: 20px;
+}
+.container .row .para8
+{
+    
+    color:gray;
+}
+
+@media screen and (max-width:1200px){
+    .road{
+        width: 600px !important;
+    }
+    .third {
+        left: 500px;
+        top: -100px;
+    }
+
+
+}
+
+@media screen and (max-width:922px){
+    .first{
+       right: 300px;
+    }
+    .road{
+        width: 600px !important;
+        left: 50px !important;
+    }
+    .third {
+        left: 400px;
+        top: -150px;
+    }
+    .third_section .foot
+    {
+       height: 300px;
+       position: relative;
+      width: 1600px !important;
+    }
+    .third_section .icons
+    {
+        position: relative;
+        left: 470px !important; 
+       
+        width: 50px;
+    }
+    .third_section .icons img
+    {
+       margin: 10px;  
+    }
+    .third_section .links
+    {
+       position: relative;
+       left: 445px;
+        display: flex;
+        flex-direction: column;
+    }
+    .third_section .btn1 , .third_section .imgapple , .third_section .apple 
+    {
+        position: relative;
+        left: 405px;      
+        width: 50px;
+    }
+    .third_section .pep
+    {
+          position: relative;
+         right: 80px !important;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .road{
+        width: 450px !important;
+        left: 50px !important;
+    }
+    .first{
+        right: 200px !important;
+    }
+    .second{
+        right: 190px;
+    }
+    .third {
+        left: 200px !important;
+        top: -120px !important;
+    }
+    .why{
+        bottom: -100px !important;
+        width: 400px;
+    }
+    .kodo{
+        bottom: 150px !important;
+    }
+  .third_section .foot
+    {
+       height: 300px;
+       position: relative;
+      width: 1600px !important;
+    }
+    .third_section .icons
+    {
+        position: relative;
+        left: 470px !important; 
+       
+        width: 50px;
+    }
+    .third_section .icons img
+    {
+       margin: 10px;  
+    }
+    .third_section .links
+    {
+       position: relative;
+       left: 445px;
+        display: flex;
+        flex-direction: column;
+    }
+    .third_section .btn1 , .third_section .imgapple , .third_section .apple 
+    {
+        position: relative;
+        left: 405px;      
+        width: 50px;
+    }
+    .third_section .pep
+    {
+          position: relative;
+         right: 80px !important;
+    }
+
+
+}
+
+
+@media screen and (max-width:576px){
+    .road{
+        width: 300px !important;
+      
+    }
+    .first{
+        right: -10px !important;
+        top: 0 !important;
+        width: 150px;
+        font-size: 15px;
+    }
+    .imageroad1{
+        width: 150px;
+    }
+    .second{
+        right: 0px !important;
+        top: -200px !important;
+        width: 150px;
+    }
+    .second img{
+        width: 150px;
+    }
+    .third {
+
+        top: 80px !important;
+        left: 10px !important;
+        width: 150px;
+    }
+    .third img{
+        width: 150px;
+    }
+     .third_section .pep
+    {
+          position: relative;
+          left: 50px;;
+        width: 320px !important;
+    }
+    .third_section .foot
+    {
+       height: 300px;
+    }
+    .third_section .icons
+    {
+        position: relative;
+        left: 470px !important; 
+       
+        width: 50px;
+    }
+    .third_section .icons img
+    {
+       margin: 10px;  
+    }
+    .third_section .links
+    {
+       position: relative;
+       left: 445px;
+        display: flex;
+        flex-direction: column;
+    }
+    .third_section .btn1 ,     .third_section .imgapple ,     .third_section .apple 
+ 
+
+    {
+        position: relative;
+        left: 405px;
+       
+        width: 50px;
+    }
+   
+    
+}
+
+
+@media screen and (max-width:450px){
+    .third {
+
+        top: -700px !important;
+        left: 200px !important;
+        width: 150px;
+    }
+    .third_section .foot
+    {
+       height: 300px;
+    }
+    .third_section .icons
+    {
+        position: relative;
+        left: 470px !important; 
+       
+        width: 50px;
+    }
+    .third_section .icons img
+    {
+       margin: 10px;  
+    }
+    .third_section .links
+    {
+       position: relative;
+       left: 445px;
+        display: flex;
+        flex-direction: column;
+    }
+    .third_section .btn1 ,     .third_section .imgapple ,     .third_section .apple 
+ 
+
+    {
+        position: relative;
+        left: 405px;
+       
+        width: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.container .row .para9
+{
+  
+    color:white;
+    font-size: 22px;
+}
+.container .row .para9 span
+{
+    font-size: 55px;
+}
+.container .row .divide
+{
+    width:511px;
+    height: 418px;
+}
+.middle
+{
+    position: relative;
+    left:258px;
+}
+.container .row .para10 , .container .row .para11
+{
+    position: relative;
+    left: 121px;
+    bottom:34px;
+}
+.container .row .para11
+{
+    position: relative;
+    left:191px;
+    color:gray;
+}
+.container .row .rightimg
+{
+    position: relative;
+    left: 103px;
+    top: 142px;
+    width: 247px;
+    height: 239px;
+}
+.container .row .leftimg
+{
+    position: relative;
+    right: 392px;
+    top: 130px;
+    width: 229px;
+    height: 219px;
+}
+.third_section
+{
+    position:relative;
+    top: 200px;
+}
+.first .kodo
+{
+    position: relative;
+    bottom: 514px;
+    left: 73px;
+    font-size: 22px;
+    color:white;
+}
+.first .why 
+{
+    position:relative;
+    bottom: 250px;
+    right: 100px;
+}
+.first .kodo span
+{
+    font-size: 70px;
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+}
+.footer .main
+{
+     width:100%;
+     background-color: white;
+}
+.footer .people
+{
+    width: 576px;
+    height: 411px;
+    position: relative;
+    left: 791px;
+    top: 549px;
+    z-index: 2;
+}
+
+@media screen and (max-width:922px){
+    .middle{
+        left: 55px !important;
+        top: -20px !important;
+    }
+
+
+}
+
+@media screen and (max-width:768px){
+    .middle {
+        left: -55px !important;
+        top: 55px !important;
+    }
+    .container .row .leftimg {
+        position: relative;
+        right: -107px;
+        top: 83px;
+}
+}
+.third_section .foot
+{
+    position: relative;
+    top: 216px;
+    right: 1000px;
+    height: 592px;
+    width: 1554px;
+}
+.third_section .pep
+{
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    right:-28px;
+    bottom: -215px;
+    z-index: 1;
+}
+.third_section .btnmain
+{
+    position: relative;
+    top: 700px;
+    right: 800px;
+    display: flex;
+   width:500px;
+   z-index: 2;
+}
+.third_section .btn2 , .third_section .imgplay , .third_section .store 
+{
+    position: relative;
+    right:80px
+}
+.third_section .imgplay , .third_section .store 
+{
+    position: relative;
+    right:210px !important;
+    margin-left: 10px;
+}
+.third_section .apple , .third_section .store
+{
+   position: relative;
+   right:110px;
+   top:10px;
+}
+
+.third_section .icons
+{
+    position: relative;
+    top: 730px;
+    right: 800px;
+    z-index: 3;
+}
+.third_section .icons img
+{
+    margin-left: 15px;
+}
+.third_section .links 
+{
+    position: relative;
+    top: 750px;
+    right: 800px;
+    z-index: 1;
+}
+.third_section .links a
+{
+    color:white;
+    
+    margin-left: 22px;
+}
+
+
+
+
+
+
+
+
+
